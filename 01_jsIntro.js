@@ -12,7 +12,7 @@
 
 // Define global variables here
 const myString = "my string";
-var numbers = 7;
+let numbers = 7;
 
 function setNumbers(num) {
   numbers = num;
