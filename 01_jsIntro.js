@@ -4,30 +4,33 @@
 // and set its value to 'my string'
 // 2. Create a second variable called numbers which can be reassigned
 // and set its value to 7
-// 3. Implement setNumbers to set our global numbers variable to the 
+// 3. Implement setNumbers to set our global numbers variable to the
 // value passed in as a parameter
 
-// Run 'mocha 01_jsIntro.js' to test 
+// Run 'mocha 01_jsIntro.js' to test
 // (you'll have to have mocha installed globally)
 
 // Define global variables here
+const myString = "my string";
+var numbers = 7;
 
 function setNumbers(num) {
+  numbers = num;
   // Your code here
 }
-var assert = require('assert');
+var assert = require("assert");
 
-describe('jsIntro', () => {
-  it('checks that myString cannot be changed', function () {
+describe("jsIntro", () => {
+  it("checks that myString cannot be changed", function() {
     try {
-      myString = 'abc';
+      myString = "abc";
     } catch (err) {
       //do nothing
     }
     assert.equal(myString, "my string");
   });
 
-  it('checks that numbers can be changed with setNumbers function', function () {
+  it("checks that numbers can be changed with setNumbers function", function() {
     setNumbers(9);
     assert.equal(numbers, 9);
   });
