@@ -36,4 +36,8 @@
 * 01_jsIntro
 * 02_largestNumber
 * 03_openDoor
+<<<<<<< HEAD
 >>>>>>> 03_openDoor
+=======
+* 04_objects
+>>>>>>> 983e022fe8d8d4e91a410cbbc1b11086b8cacd4e
