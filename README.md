@@ -23,3 +23,7 @@
 - 03_openDoor
 - 04_objects
 - 05_sumNumbers
+- 06_hiddenMessage
+- 07_binarySearch
+- 08_welcome
+- 09_oddOrEven
